@@ -181,7 +181,7 @@
      [:li "after pushing your project to " [:a {:href "https://github.com/your-handle/your-project"} "https://github.com/your-handle/your-project"] ","]
      [:li "you can simply visit " [:a {:href "https://github.clerk.garden/your-handle/your-project"} "https://github.clerk.garden/your-handle/your-project"] " and we'll build it for you or redirect you to the last successful build! ✨"
       [:br]
-      [:span.text-xs "(to force an update for an already build project, append " (code "?update=1") ")"]]]]]
+      [:span.text-xs "(to force an update for an already built project, append " (code "?update=1") ")"]]]]]
   [:footer.text-sm.my-20.text-greenish-60.separator-top.pt-4
    [:ul.flex
     [:li.mr-4 "This website is built with Clerk."]]]])
